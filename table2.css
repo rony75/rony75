@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(61, 60, 60);
+}
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 70%;
+    margin:auto;
+    position: relative;
+
+}
+caption{
+    font-size: 50px;
+    color: #f504b9f5;}
+th,td{
+    border: 1px solid black;
+    color: cornsilk;
+    text-align: center;
+    height: 60px;
+}
+th{
+    background-color: green;
+    height: 40px;
+}
+tr{
+    background-color: rgb(19, 188, 245);
+}
+tr:hover{
+    background-color: rgb(66, 75, 70);
+}

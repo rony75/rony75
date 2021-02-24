@@ -1,0 +1,74 @@
+body{
+    background-color: gray;
+    padding-top: 50px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+    position: relative;
+    margin: auto;
+    
+}
+caption{
+    font-size: 50px;
+    color: #f504b9f5;
+}
+    
+th,td{
+border: 1px solid black;
+padding: 2px;
+}
+
+th{
+background-color: antiquewhite;
+height: 30px;
+text-align: center;
+font-size: 15px;
+}
+tr{
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(74, 132, 241);
+}
+tr:nth-child(odd){
+    background-color: #73f707a9;
+}
+
+tr:hover{
+    background-color: slateblue;    
+}
+td,tr{ cursor: pointer;
+}
+
+
+.button{
+    width: 300px;
+    height: 70px;
+    line-height:auto;
+    border: 5px solid gainsboro;
+    background-color:darkcyan;
+    border-radius: 0px 50px 0px 50px;
+    display: inline;
+    margin-top: 3vh;
+    margin-left: 32vh;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
+#but{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(216, 231, 224); 
+}
+.button:hover{
+    background-color: rgb(59, 36, 36);
+    
+    
+    
+}
+/*style="display: inline; border: medium none; cursor: pointer;"*/
+           

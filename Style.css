@@ -1,0 +1,22 @@
+body{
+	max-width: 600px;
+	margin: 0 auto;
+	background-color: #808080;
+	font-size: 18px;
+	color: FFFAF0;
+	padding-bottom:50px;
+	}
+	
+	.cla1{
+		text-align: right;
+		padding-top: 50px;
+	}
+	.cla2{
+	 padding-left: 25px;
+	}
+	.cla3{
+	 padding-left: 25px;
+	}
+	.cla4{
+	 padding-left: 25px;
+	}
